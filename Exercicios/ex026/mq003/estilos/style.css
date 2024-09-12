@@ -12,20 +12,20 @@
         width: 100vw;
         height: 100vh;
         background-color: #233eff;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
     h1 {
-        color: white;
-        text-shadow: 2px 2px 0px #1526a7;
+        color: rgb(42, 41, 41);
+        text-shadow: 2px 2px 0px #363e7c;
         padding: 10px;
     }
     /*Declações grais*/
 
     @media screen and (orientation:portrait){
         body {
-            background-image: url(../Imagens/cev-portrait.jpg);
+            background-image: url(../Imagens/pexels-retrato.jpg);
             background-position: center bottom;
         }
     }
@@ -34,7 +34,7 @@
 
     @media screen and (orientation:landscape){
         body {
-            background-image: url(../Imagens/cev-landscape.jpg);
+            background-image: url(../Imagens/pexels-paisagem.jpg);
             background-position: left bottom;
         }
     }
