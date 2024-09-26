@@ -9,13 +9,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    background-color: rgb(191, 189, 189);
+    background-color: rgb(250, 114, 114);
     height: 100vh;
     width: 100vw;
 }
 
 header {
-    background-color: rgba(86, 86, 86, 0.612);
+    background-color: rgba(168, 9, 9, 0.872);
     color: white;
     padding: 10px;
 
@@ -26,6 +26,7 @@ header {
 }
 
 header > h1 {
+    font-size: 3.5em;
     border: 1px dotted black;
     flex: 0 0 200px;
 }
@@ -62,7 +63,7 @@ main {
 }
 
 main {
-    background-color: white;
+    background-color: rgb(255, 235, 235);
 }
 
 main > h2 {
