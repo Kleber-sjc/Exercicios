@@ -27,12 +27,13 @@ header {
 
 header > h1 {
     font-size: 3.5em;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px black;
 }
 
 header > nav {
-    border: 1px dotted black;
+   /* border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -50,7 +51,7 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(146, 130, 130);
     color: black;
     transition: backgroud-color .3s;
 }
